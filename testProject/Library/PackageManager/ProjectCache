@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638584950519739675
-    m_Hash: 228985270
+      ticks: 638588217330143660
+    m_Hash: 52279628
   m_LockFileStatus:
     m_FilePath: D:/Programming/testGameUnity/testProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638584950954792478
-    m_Hash: 1587512919
+      ticks: 638588217332142955
+    m_Hash: 2137555786
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -112,6 +112,10 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         - 2.1.0
+        - 2.2.0
+        - 2.3.1
+        - 2.4.3
+        - 2.4.4
         compatible:
         - 1.15.12
         - 1.15.13
@@ -182,141 +186,6 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: 5ca1fd4ca9f999e087d19e98afaf99905a582771
         path: 
-    - packageId: com.unity.ide.rider@2.0.7
-      testable: 0
-      isDirectDependency: 1
-      version: 2.0.7
-      source: 1
-      resolvedPath: D:\Programming\testGameUnity\testProject\Library\PackageCache\com.unity.ide.rider@2.0.7
-      assetPath: Packages/com.unity.ide.rider
-      name: com.unity.ide.rider
-      displayName: JetBrains Rider Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: asset
-      description: The JetBrains Rider Editor package provides an integration for
-        using the JetBrains Rider IDE as a code editor for Unity. It adds support
-        for generating .csproj files for code completion and auto-discovery of installations.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.7
-        - 3.0.9
-        - 3.0.10
-        - 3.0.12
-        - 3.0.13
-        - 3.0.14
-        - 3.0.15
-        - 3.0.16
-        - 3.0.17
-        - 3.0.18
-        - 3.0.20
-        - 3.0.21
-        - 3.0.22
-        - 3.0.24
-        - 3.0.25
-        compatible:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.7
-        - 3.0.9
-        - 3.0.10
-        - 3.0.12
-        - 3.0.13
-        - 3.0.14
-        - 3.0.15
-        - 3.0.16
-        - 3.0.17
-        - 3.0.18
-        - 3.0.20
-        - 3.0.21
-        - 3.0.22
-        - 3.0.24
-        - 3.0.25
-        verified: 2.0.7
-      dependencies:
-      - name: com.unity.test-framework
-        version: 1.1.1
-      resolvedDependencies:
-      - name: com.unity.test-framework
-        version: 1.1.29
-      - name: com.unity.ext.nunit
-        version: 1.0.6
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 0
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
-        path: 
     - packageId: com.unity.ide.visualstudio@2.0.14
       testable: 0
       isDirectDependency: 1
@@ -362,6 +231,7 @@ m_PackageAssets:
         - 2.0.18
         - 2.0.20
         - 2.0.21
+        - 2.0.22
         compatible:
         - 1.0.2
         - 1.0.3
@@ -386,7 +256,8 @@ m_PackageAssets:
         - 2.0.18
         - 2.0.20
         - 2.0.21
-        verified: 2.0.21
+        - 2.0.22
+        verified: 2.0.22
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -420,59 +291,143 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ide.vscode@1.2.4
+    - packageId: com.unity.probuilder@4.5.2
       testable: 0
       isDirectDependency: 1
-      version: 1.2.4
+      version: 4.5.2
       source: 1
-      resolvedPath: D:\Programming\testGameUnity\testProject\Library\PackageCache\com.unity.ide.vscode@1.2.4
-      assetPath: Packages/com.unity.ide.vscode
-      name: com.unity.ide.vscode
-      displayName: Visual Studio Code Editor
+      resolvedPath: D:\Programming\testGameUnity\testProject\Library\PackageCache\com.unity.probuilder@4.5.2
+      assetPath: Packages/com.unity.probuilder
+      name: com.unity.probuilder
+      displayName: ProBuilder
       author:
         name: 
         email: 
         url: 
       category: 
       type: asset
-      description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
+      description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+        for in-scene level design, prototyping, collision meshes, all with on-the-fly
+        play-testing.
+
+
+        Advanced features include UV editing, vertex colors,
+        parametric shapes, and texture blending. With ProBuilder''s model export
+        feature it''s easy to tweak your levels in any external 3D modelling suite.'
       status: 4
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.2.5
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.6
+        - 3.0.8
+        - 3.0.9
+        - 3.10.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 4.5.2
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 5.0.6
+        - 5.0.7
+        - 5.1.0
+        - 5.1.1
+        - 5.2.0
+        - 5.2.2
+        - 6.0.1-pre.1
+        - 6.0.1-pre.2
+        - 6.0.1
         compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.2.5
-        verified: 1.2.5
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 4.5.2
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 5.0.6
+        - 5.0.7
+        - 5.1.0
+        - 5.1.1
+        - 5.2.0
+        - 5.2.2
+        verified: 4.5.2
+      dependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      resolvedDependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      keywords:
+      - 3d
+      - model
+      - mesh
+      - modeling
+      - geometry
+      - shape
+      - cube
+      - blender
+      - max
+      - maya
+      - fbx
+      - obj
+      - level
+      - design
+      - block
+      - greybox
+      - graybox
+      - whitebox
+      - prototype
+      - probuilder
       registry:
         id: main
         name: 
@@ -485,13 +440,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637660806170000000
+      datePublishedTicks: 637613656650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+        revision: 27f52072e5f94638d1f81bc53df38e59d5bac785
         path: 
     - packageId: com.unity.test-framework@1.1.29
       testable: 0
@@ -556,6 +511,12 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -574,6 +535,12 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -736,23 +703,37 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
         - 3.2.0-pre.4
         - 3.2.0-pre.5
         - 3.2.0-pre.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        - 3.2.0-pre.10
         - 4.0.0-pre.1
         - 4.0.0-pre.2
         compatible:
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
         - 3.2.0-pre.4
         - 3.2.0-pre.5
         - 3.2.0-pre.6
-        verified: 3.0.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        - 3.2.0-pre.10
+        verified: 3.0.9
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -887,12 +868,15 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
+        - 1.8.7
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -926,12 +910,15 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
+        - 1.8.7
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1004,6 +991,7 @@ m_PackageAssets:
         - 1.0.0
         - 3.0.0-exp.1
         - 3.0.0-exp.3
+        - 3.0.0-exp.4
         compatible:
         - 1.0.0
         verified: 1.0.0
@@ -2853,6 +2841,54 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.settings-manager@1.0.3
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.3
+      source: 1
+      resolvedPath: D:\Programming\testGameUnity\testProject\Library\PackageCache\com.unity.settings-manager@1.0.3
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.3
+        compatible:
+        - 1.0.3
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+        path: 
     - packageId: com.unity.services.core@1.0.1
       testable: 0
       isDirectDependency: 0
@@ -2901,6 +2937,12 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.1
         - 1.11.0
+        - 1.12.0
+        - 1.12.1
+        - 1.12.2
+        - 1.12.4
+        - 1.12.5
+        - 1.13.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -2926,6 +2968,12 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.1
         - 1.11.0
+        - 1.12.0
+        - 1.12.1
+        - 1.12.2
+        - 1.12.4
+        - 1.12.5
+        - 1.13.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
